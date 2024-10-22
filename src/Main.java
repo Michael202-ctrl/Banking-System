@@ -7,5 +7,7 @@ public class Main {
 
         System.out.print("Enter amount");
         amount = sc.nextInt();
+
+
     }
 }

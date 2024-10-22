@@ -13,4 +13,11 @@ public class Account {
     public void checkBalance (){
         System.out.print("Your current balance is: " + balance);
     }
+    public void withdraw (int amount) {
+        if (balance >= amount){
+            balance -= amount;
+            System.out.print("Successfully withdraw: " + amount);
+        }
+
+    }
 }
