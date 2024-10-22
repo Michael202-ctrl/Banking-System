@@ -6,5 +6,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter amount");
+        amount = sc.nextInt();
     }
 }
