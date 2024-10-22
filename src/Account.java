@@ -9,4 +9,8 @@ public class Account {
         balance += amount;
         System.out.print("Successfully Deposited: " + amount);
     }
+
+    public void checkBalance (){
+        System.out.print("Your current balance is: " + balance);
+    }
 }
