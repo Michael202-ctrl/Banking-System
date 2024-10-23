@@ -22,6 +22,18 @@ public class Account {
             balance -= amount;
             System.out.print("Successfully withdraw: " + amount);
             System.out.println();
+        }else{
+            System.out.println("Insufficient balance :(");
+        }
+    }
+
+    public void loan (int amount){
+        if (balance >= amount){
+            balance += amount;
+            System.out.println("You Successfully loaned: " + amount);
+            System.out.println();
+        }else {
+            System.out.println("Insufficient balance :(");
         }
     }
 }
